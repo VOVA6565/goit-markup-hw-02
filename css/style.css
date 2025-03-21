@@ -64,7 +64,7 @@ body {
 .main {
 }
 .hero {
-  background-color: var(--navy-blue);
+  background-color: #2e2f42;
 }
 .hero-title {
   font-family: var(--font-family);
@@ -73,7 +73,7 @@ body {
   line-height: 107%;
   letter-spacing: 0.02em;
   text-align: center;
-  color: var(--white);
+  color: #ffffff;
 }
 .hero-button {
   font-family: var(--font-family);
@@ -81,7 +81,14 @@ body {
   font-size: 16px;
   line-height: 150%;
   letter-spacing: 0.04em;
-  color: var(--white);
+  background-color: #4d5ae5;
+  cursor: pointer;
+  color: #ffffff;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
 }
 
 .features {
