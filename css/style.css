@@ -115,7 +115,7 @@ body {
   color: var(--slate);
 }
 .team {
-  background: var(--cloud);
+  background-color: #f4f4fd;
 }
 .team-title {
   font-family: var(--font-family);
